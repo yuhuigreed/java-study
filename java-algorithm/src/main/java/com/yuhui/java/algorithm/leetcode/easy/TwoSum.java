@@ -1,4 +1,4 @@
-package com.yuhui.java.algorithm.leetcode;
+package com.yuhui.java.algorithm.leetcode.easy;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -46,6 +46,6 @@ public class TwoSum {
             }
             numMap.put(num1, i);
         }
-        throw new Exception("没找到符合要求的数字");
+        return null;
     }
 }
